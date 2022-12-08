@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Qatari' ;
+    src: url('fonts/Khodijah Free') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* 
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-openty
+        - truetype-att (Apple Advanced Typography)
+        - svg
+    */
+}
+
+
+* {
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #F2F2F2,#8C0D3B);
+}
+
+p {
+    text-align: justify;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(19, 18, 18, 0.747);
+}
+
+h1{
+    color: #400319;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-family:'Qatari' ;
+    font-size: 45px;
+}
+
+h2{
+    color: #400319;
+}
